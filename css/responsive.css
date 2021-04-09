@@ -1,0 +1,275 @@
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px)  {
+    /* Bennar Part */
+    #bennar {
+        padding-bottom: 50px;
+    }
+    /* History  Part*/
+    #history {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+    /* Gigt Part */
+    .gift_img {
+        position: absolute;
+        right: 0px;
+        bottom: -44px;
+    }
+    /* Ticket Part */
+    #ticket {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ticket_img img {
+        left: -9px;
+        top: 128px;
+        width: 561px;
+    }
+    /* Services Part */
+    #services {
+        padding-bottom: 0;
+    }
+    /* Capture Part */
+    #capture {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Countdown Part */
+    #countdown {
+        padding-bottom: 36px;
+    }
+    /* Testimonial Part */
+    #testimonials {
+        padding-top: 70px;
+        padding-bottom: 85px;
+    }
+    /* News letter */
+    #newsletter .newsbox {
+        width: 90%;
+        bottom: -47%;
+    }
+    .news_item .content h3 {
+        font-size: 30px;
+    }
+    .news_item .content p {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    /* Nabvbar PArt */
+    .navbar-nav .nav-link {
+        margin-bottom: 10px;
+    }
+    /* Bennar Part */
+    .bennar_text h1 {
+        font-size: 43px;
+        padding-top: 0;
+    }
+    .bennar_text h2 {
+        font-size: 49px;
+        margin-top: -29px;
+    }
+    .bennar_text p {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 32px;
+    }
+    /* History Part */
+    .history_img img{
+        height: 200px;
+    }
+    .history_heading h4 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -13px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .history_heading p {
+        padding-top: 0px;
+    }
+    /* Gift Part */
+    #gift {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .gift_img{
+        bottom: -33px;
+    }
+    .gift_img img{
+        width: 500px;
+    }
+    .gift_heading p {
+        padding-top: 20px;
+    }
+    .gift_heading a {
+        padding: 0px 22px;
+    }
+    /* Ticket Part */
+    .ticket_img img {
+        left: -31px;
+        top: -21px;
+        width: 326px;
+    }
+    /* Services Part */
+    #services {
+        padding-top: 30px;
+    }
+    .services_heading p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .capture_heading p {
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+    .capture_heading a {
+       margin-bottom: 10px;
+    }
+    .testimonials_item .tes_pic {
+        margin: 0 auto;
+    }
+    .testimonials_item .tes_details {
+        padding-left: 52px;
+        text-align: center;
+    }
+    .testimonials_item .text p {
+        text-align: justify;
+    }
+    .news_item {
+        justify-content: center;
+    }
+    #newsletter .newsbox {
+        bottom: -32%;
+    }
+    #newsletter .newsbox {
+        padding-top: 17px;
+        padding-bottom: 12px;
+    }
+    .news_item input[type="text"] {
+        width: 247px;
+    }
+    .testimonials_item .tes_details h5 {
+        padding-top: 5px;
+    }
+    /* Footer Part */
+    .footer_img {
+        padding-bottom: 0;
+    }
+    .footer_item .foot_icon {
+        min-width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .footer_item .foot_icon i {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .footer_item .foot_text p {
+        font-size: 14px;
+    }
+    .foot_icon_heading h3 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* Testimonials Part*/
+    .testimonials_item {
+        width: 490px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    /* Footer part */
+    .footer_item .foot_icon {
+        min-width: 40px;
+        min-height: 40px;
+    }
+    #newsletter .newsbox {
+        bottom: -25%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Menu Part */
+    .menu {
+        padding-top: 15px;
+    }
+    .login_btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .gift_img {
+        bottom: -27px;
+    }
+    .gift_img img {
+        opacity: 0.4;
+    }
+
+    .ticket_heading p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Ticket */
+    .ticket_img img {
+        left: 15px;
+        top: 147px;
+        width: 380px;
+        opacity: 0.4;
+    }
+    .ticket_heading a {
+        margin-right: 10px;
+    }
+
+    /* Capture */
+    .capture_heading p {
+        padding: 20px 10px;
+    }
+    .capture_heading a {
+        margin-right: 10px;
+    }
+    /* Count */
+    .count_item h3 {
+        font-size: 35px;
+    }
+    .count_item p {
+        font-size: 25px;
+    }
+
+    /* Testimonial */
+    #testimonials {
+        padding-bottom: 104px;
+    }
+    .testimonials_item {
+        width: 300px;
+    }
+    .testimonials_item .tes_details {
+        padding: 0;
+        width: 195px;
+        margin: 0 auto;
+    }
+    #newsletter .newsbox {
+        bottom: -19%;
+    }
+
+    .footer_item .foot_icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+
+
